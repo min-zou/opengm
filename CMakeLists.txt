@@ -554,7 +554,7 @@ add_subdirectory(src)
 INCLUDE(CTest)
 ENABLE_TESTING()
 if(BUILD_TESTING)
-   add_subdirectory(src/unittest)
+   # add_subdirectory(src/unittest)
 endif()
 
 #--------------------------------------------------------------
